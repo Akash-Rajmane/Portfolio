@@ -466,11 +466,32 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  border-radius: 10px !important;
+  position: relative;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  cursor: pointer;
+}
+
+.highlight {
+  position: absolute;
+  width: 200px; /* Set the radius here */
+  height: 200px; /* Set the radius here */
+  background: radial-gradient(circle,rgba(119, 53, 136, 0.459), rgba(136, 128, 237, 0.5), rgba(155, 148, 245, 0.5));
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  filter: blur(30px); /* Adjust the blur intensity */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+.project-card-view:hover .highlight {
+  opacity: 1;
 }
 
 .blog-card {
@@ -505,9 +526,10 @@ button:focus {
 }
 
 .card-img-top {
-  padding: 20px !important;
+  padding: 0px !important;
   opacity: 0.8 !important;
-  border-radius: 10px !important;
+  border-radius: 10px 10px 0px 0px !important;
+  height: 200px;
 }
 
 .blog-img {
