@@ -31,6 +31,7 @@ function Projects() {
               Add, Delete Expense.User can see Full Expense Report.
               Premium users can download Full Expense Report, see daily/weekly/monthly/yearly Expense Report, see previously downloaded files, see Expense Leaderboard."
               demoLink="https://expense-tracker-fs.netlify.app"
+              ghLink="https://github.com/Akash-Rajmane/Expense-Frontend"
             />
           </Col>
 
