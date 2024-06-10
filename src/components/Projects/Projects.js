@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ET from "../../Assets/Projects/Expesne-Tracker-Img.png";
 import FP from "../../Assets/Projects/FavPlaces-Img.png";
-import SM from "../../Assets/Projects/Students-Manager-Img.png";
+//import SM from "../../Assets/Projects/Students-Manager-Img.png";
 import DC from "../../Assets/Projects/Disney+-Clone-Img.png";
 import TL from "../../Assets/Projects/Todo-List-Img.png";
 import ECOM from "../../Assets/Projects/e-com.png";
