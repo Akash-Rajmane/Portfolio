@@ -7,6 +7,7 @@ import FP from "../../Assets/Projects/FavPlaces-Img.png";
 import SM from "../../Assets/Projects/Students-Manager-Img.png";
 import DC from "../../Assets/Projects/Disney+-Clone-Img.png";
 import TL from "../../Assets/Projects/Todo-List-Img.png";
+import ECOM from "../../Assets/Projects/e-com.png";
 
 
 function Projects() {
@@ -49,6 +50,19 @@ function Projects() {
               demoLink="https://favplaces.netlify.app"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ECOM}
+              isBlog={false}
+              title="E-COM"
+              stack="ReactJS, HTML, Bootstarp, JavaScript, React- Router-Dom, NodeJS, ExpressJS, MongoDB, JWT Authentication"
+              description="User signup, login, logout and responsive web design. Add, Edit Quantity, Delete items from the cart and place order. Store non-logged in user's cart items in the cart on login."
+              ghLink="https://github.com/Akash-Rajmane/ECOM-FE"
+              demoLink="https://ecom-fs.vercel.app"              
+            />
+          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
