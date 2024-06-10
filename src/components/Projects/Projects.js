@@ -56,15 +56,15 @@ function Projects() {
               imgPath={ECOM}
               isBlog={false}
               title="E-COM"
-              stack="ReactJS, HTML, Bootstarp, JavaScript, React- Router-Dom, NodeJS, ExpressJS, MongoDB, JWT Authentication"
+              stack="ReactJS, HTML, Bootstrap, JavaScript, React- Router-Dom, NodeJS, ExpressJS, MongoDB, JWT Authentication"
               description="User signup, login, logout and responsive web design. Add, Edit Quantity, Delete items from the cart and place order. Store non-logged in user's cart items in the cart on login."
               ghLink="https://github.com/Akash-Rajmane/ECOM-FE"
               demoLink="https://ecom-fs.vercel.app"              
             />
           </Col>
 
-
-          <Col md={4} className="project-card">
+        
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={SM}
               isBlog={false}
@@ -77,8 +77,8 @@ function Projects() {
               ghLink="https://github.com/Akash-Rajmane/Students-Manager-FrontEnd"
               demoLink="https://students-manager.netlify.app"              
             />
-          </Col>
-
+          </Col> */}
+        
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={DC}
